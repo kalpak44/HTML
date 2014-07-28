@@ -1,0 +1,685 @@
+@import url(http://fonts.googleapis.com/css?family=PT%20Sans%20Narrow);
+body{
+	background-color:#686868;
+	background-image: url("../images/body-bg.png");
+	margin: 0px;
+  padding: 0px;
+}
+h1{
+  font-family: "PT Sans Narrow Bold", "PT Sans Narrow", Arial;
+  font-weight: bold;
+  color: #1b579e;
+  font-size: 18px;
+  text-align: left;
+  margin: 0px;
+}
+h2{
+  font-family: "PT Sans Narrow", Arial;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  text-align: left;
+  margin: 0px;
+}
+h3{
+  font-family: "PT Sans Narrow", Arial;
+  font-weight: normal;
+  color: #333;
+  font-size: 13px;
+  text-align: left;
+  margin: 5px;
+  text-align: left;
+}
+p{
+  font-size: 12px;
+  font-family: Arial,Verdana;
+  color: #737475;
+  margin: 0px;
+  padding: 0px;
+}
+ul{
+  margin: 0px;
+  padding: 16px;
+}
+li{
+  font-size: 12px;
+  font-family: Arial,Verdana;
+  display: list-item;
+  color: #737475;
+  margin: 0px;
+  padding: 0px;
+}
+form{
+  margin-top: 0px;
+  padding: 0px;
+}
+input[type=text]{
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+input[type=submit]{
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+textarea{
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+    font-family: PT Sans Narrow Bold; /* Имя шрифта */
+    src: url(../fonts/PTN77F.ttf); /* Путь к файлу со шрифтом */
+}
+
+#main{
+  background-color: rgb( 255, 255, 255 );
+  background-image: url("../images/main-bg.png");
+  top: 18px;
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 20px; 
+  position: relative;
+}
+
+#header{
+	width: 100%;
+	height: 290px;
+}
+
+#shape-right{
+  background-color: rgb(3,46,99 );
+  background-image: url("../images/shape-bg.png");
+  position: absolute;
+	margin-top: 44px;
+  right: -13px;
+	width: 744px;
+  height: 43px;
+  z-index: 1;
+}
+#right-shape-shadow{
+width: 0px;
+height: 0px;
+margin-top: 43px; 
+margin-left:731px; 
+border-style: solid;
+border-width: 13px 13px 0 0;
+border-color: #02142b transparent transparent transparent;
+}
+#social{
+  position: absolute;
+  margin: 9px 592px;
+  height: 24px;
+  width: 150px;
+}
+
+#fb{
+  float: left;
+  margin-left: 0px;
+}
+
+#fb>a{
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../images/fb1.png);
+  background-repeat: no-repeat;
+}
+
+#s{
+  float: left;
+  margin-left:5px; 
+}
+
+#s>a{
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../images/skype.png);
+  background-repeat: no-repeat;
+}
+
+#in{
+  float: left;
+  margin-left:5px; 
+}
+
+#in>a{
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../images/in1.png);
+  background-repeat: no-repeat;
+}
+
+
+#shape-left {
+  background-color: rgb( 3, 46, 99 );
+  background-image: url("../images/shape-bg.png");
+  position: absolute;
+  left: -13px;
+  margin-top: 44px;
+  width: 55px;
+  height: 43px;
+  z-index: 1;
+}
+#left-shape-shadow{
+  width: 0px;
+  height: 0px;
+  margin-left: 0px;
+  margin-top: 43px;  
+  border-style: solid;
+  border-width: 0 13px 13px 0;
+  border-color: transparent #02142b transparent transparent;
+}
+
+
+#resume-shadow {
+  position: absolute;
+  margin-top: 27px;
+  left: 43px;
+  width: 186px;
+  height: 77px;
+  box-shadow:-15px 0px 15px -15px #2c2c2c,15px 0px 15px -15px #2c2c2c;
+  -moz-box-shadow:-15px 0px 15px -15px #2c2c2c,15px 0px 15px -15px #2c2c2c;
+  -webkit-box-shadow: -15px 0px 15px -15px #2c2c2c,15px 0px 15px -15px #2c2c2c;c;
+  -o-box-shadow: -15px 0px 15px -15px #2c2c2c,15px 0px 15px -15px #2c2c2c;c;
+  z-index: 2;
+
+}
+#resume{
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  -o-border-radius: 5px;
+  background-color: rgb(3,57,124);
+  background-image: url("../images/shape-bg.png");
+  position: relative;
+  margin: 22px auto;
+  box-shadow: 4px 4px 43px -3px #000000 inset;
+  -moz-box-shadow: 4px 4px 43px -3px #000000 inset;
+  -webkit-box-shadow: 4px 4px 43px -3px #000000 inset;
+  -o-box-shadow: 4px 4px 43px -3px #000000 inset;
+  width: 127px;
+  height: 31px;
+}
+
+#resume-text {
+  font-size: 24px;
+  display: block;
+  font-family: "PT Sans Narrow",Arial;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#name {
+  font-size: 60px;
+  font-family: "PT Sans Narrow", Arial;
+  color: rgb( 2, 46, 99 );
+  font-weight: bold;
+  text-align: left;
+
+}
+#name-info{
+  font-family: "PT Sans Narrow", Arial;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 50px;
+  font-size: 45px;
+  color: #898989;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+#available-info{
+  width: 390px;
+  height: 174px;
+  float: right;
+  margin-top: 100px;
+  padding: 0px 45px;
+  text-align: left;
+  line-height: 30px;
+
+}
+#available-title{
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:#74767a;
+  font-weight: bold;
+  
+}
+#sub-title-available{
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #022e63;
+  font-weight: bold;
+  display: block;
+  height: 24px;
+  width: 392px;
+  border-bottom: 2px solid #022e63;
+}
+.user-info{
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 12px;
+  color: #74767a;
+  line-height: 5px;
+  display: block;
+  width: 392px;
+  height: 34px;
+  border-bottom: 1px solid #d7d4d4;
+}
+.user-info>h3{
+  color: #000;
+  text-shadow: 0px 1px 5px rgba(150, 150, 150, 1);
+  font-weight: bold;
+  margin:7px 0px 12px 0px;
+}
+
+
+
+
+
+#content{
+  width: 960px;
+  margin-top: 10px;
+  position: relative;
+  background-image: url(../images/line.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.title-box{
+  width: 100%;
+  margin-top: 15px;
+  border-bottom: 2px dotted #c2c2c2;
+  text-align: left;
+}
+
+
+#box-one{
+  width: 874px;
+  min-height: 237px;
+  height:auto !important;
+  height:237px;
+  overflow: hidden;
+  margin:0px 43px;
+  
+}
+
+#autobiography{
+  width: 400px;
+  padding-right: 36px;
+  float: left;
+}
+
+#autobiography>p{
+  line-height: 19px;
+  margin-top: 16px;
+  text-align: justify;
+
+}
+
+#photo{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 211, 205, 205 );
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px;
+  background-color: rgb( 255, 255, 255 );
+  position: relative;
+  display: block;
+  margin: 16px 16px 16px 0px;
+  float: left;
+  width: 156px;
+  height: 168px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.09);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.09);
+  -o-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.09);
+  box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.09);
+}
+#photo>img{
+  position: relative;
+  overflow: hidden;
+  max-width: 150px;
+  max-height: 160px;
+  left: 3px;
+  top: 4px;
+}
+
+
+
+#skil-set{
+  width: 400px;
+  padding-left: 37px;
+  float: right;
+}
+
+#skills-table{
+  margin-top: 16px;
+  width: 100%;
+  height: 188px;
+  border: none;
+  padding: 0px;
+}
+
+.name-skill{
+  width: 120px;
+  padding: 0px;
+  margin: 0px;
+}
+.name-skill>h3{
+  font-family: "PT Sans Narrow Bold", "PT Sans Narrow", Arial;
+  margin: 0px;
+  color:#323232;
+}
+.level-colone{
+  padding: 0px;
+  margin: 0px;
+  width: 260px;
+}
+
+.level-colone>span{
+  display: block;
+  width: 100%;
+  height: 18px;
+  background-color: #bebebf;
+  outline: 1px solid #d4d4d4;
+}
+#skill{
+  display: block;
+  float: left;
+  height: 18px;
+  background-color: #1b579e;
+  outline: 1px solid #98a6b7;
+}
+
+#box-two{
+  width: 874px;
+  min-height: 237px;
+  height:auto !important;
+  height:237px;
+  overflow: hidden;
+  margin:0px 43px;
+
+}
+
+#education-block{
+  width: 400px;
+  padding-right: 36px;
+  float: left;
+}
+#experience-block{
+  width: 400px;
+  padding-left: 37px;
+  float: right;
+}
+
+.institution{
+  width: 100%;
+  margin-top: 18px;
+}
+.institut-box-info{
+  padding-bottom: 20px;
+}
+.institution-date{
+  width: 100%;
+  height: 28px;
+}
+.institution-date>h2{
+  text-transform: uppercase;
+  float: left;
+  max-width: 280px;
+  color:#323232;
+  text-shadow: 0px 1px 5px rgba(150, 150, 150, 1);
+}
+.institut-box-info>h3{
+  text-transform: none;
+  font-weight: bold;
+  width: 100%;
+  font-size: 14px;
+  color:#414141;
+  margin: 0px;
+  float: left;
+}
+.date{
+  -webkit-border-radius: 3px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 3px;
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+  height: 27px;
+  min-width: 64px;
+  background-color: #898989;
+  float: right;
+  margin-right: 4px;
+  position: relative;
+  padding: 0px 10px;
+}
+.date>span{
+  font-family:"PT Sans Narrow", Arial;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+  text-transform: uppercase;
+}
+
+
+
+#portfolio{
+  width: 864px;
+  height:382px;
+  padding: 0px 48px ;
+}
+#port-box{
+  width: 100%;
+  height: 382px;
+  overflow: hidden;
+  position: relative;
+}
+#port-box > .title-box{
+  padding-top: 0 px;
+}
+#img-port-box{
+  width: 900px;
+  height: 332px;
+  position: relative;
+}
+
+.port-img-shadow{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 204, 204, 204 );
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px; /* KHTML */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+  background-color: rgb( 255, 255, 255 );
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(100, 100, 100);
+  -o-box-shadow: 0px 2px 5px 0px rgba(100, 100, 100);
+  -moz-box-shadow:    0px 2px 5px 0px rgba(100, 100, 100);
+  box-shadow: 0px 2px 5px 0px rgb(100, 100, 100);
+  position: relative;
+  float: left;
+  width: 114px;
+  height: 114px;
+  margin: 34px 30px 0px 2px;
+
+
+}
+
+.port-img-shadow:hover{
+  -webkit-box-shadow: 0px 2px 5px 0px #5f5f5f;
+  -moz-box-shadow:    0px 2px 5px 0px #5f5f5f;
+  box-shadow: 0px 2px 5px 0px #5f5f5f;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); /* IE 5.5+*/
+  -moz-opacity: 0.80; /* Mozilla 1.6 и ниже */
+  khtml-opacity: 0.80; /* Konqueror 3.1, Safari 1.1 */
+  opacity: 0.80; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+
+}
+.port-img{
+  width: 110px;
+  height: 110px;
+  margin: 2px;
+  background-color: #d7d7d7;
+  overflow: hidden;
+  float: left;
+}
+.port-img >img{
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+
+
+
+#footer{
+  width: 960px;
+  margin-bottom: 15px;
+  min-height: 320px;
+  height:auto !important;
+  overflow: hidden;
+}
+
+#footer-lines{
+  width: 864px;
+  height: 100%;
+  margin: 0px 48px;
+  border-top: 2px solid #dbdbdb;
+  border-bottom: 2px solid #dbdbdb;
+}
+#footer-box{
+  width: 100%;
+  min-height: 270px;
+  height:auto !important;
+  overflow: hidden;
+}
+#fbox-left{
+  width: 393px;
+  min-height: 250px;
+  height:auto !important;
+  overflow: hidden;
+  border-right: 1px solid #d4d4d4;
+  float: left;
+  padding-right: 38px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+#fbox-left >ul{
+  margin-top: 12px;
+  display: block;
+  height: 100%;
+}
+
+#fbox-right{
+  width: 48%;
+  height: 100%;
+  margin-top: 10px;
+  float: right;
+}
+.contact {
+  margin-top: 12px;
+}
+.form-str{
+  width: 100%;
+  height: 30px;
+  display: block;
+  float: none;
+  margin-bottom: 6px;
+}
+.form-str >span{
+  display: block;
+  width: 60px;
+  position: relative;
+  text-align: left;
+  padding-top: 4px;
+  color: #acacac;
+  float: left;
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 16px;
+}
+.form-str >input{
+  display: block;
+  position: relative;
+  border: 2px solid #d8d8d8;
+  width: 320px;
+  height: 25px;
+  text-align: left;
+  color: #acacac;
+  float: right;
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 16px;
+  padding-left: 4px;
+}
+.form-txt{
+  width: 100%;
+  height: 84px;
+  display: block;
+  float: none;
+  margin-bottom: 6px;
+}
+.form-txt >span{
+  display: block;
+  width: 60px;
+  position: relative;
+  text-align: left;
+  padding-top: 4px;
+  color: #acacac;
+  float: left;
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 16px;
+}
+
+.form-txt >textarea{
+  display: block;
+  position: relative;
+  resize:none;
+  width: 320px;
+  height: 80px;
+  color: #acacac;
+  float: right;
+  font-family: "PT Sans Narrow", Arial;
+  font-size: 12px;
+  padding-left: 4px;
+  border: 2px solid #d8d8d8;
+}
+.form-sbm{
+  margin-top:6px; 
+}
+.form-sbm > input{
+  width: 100px;
+  height: 28px;
+  border: 1px solid #c2c2c2;
+  background-color: #022e63;
+  font-family: "PT Sans Narrow Bold", Arial;
+  float: right;
+  color: #c2c2c2;
+  font-size: 12px;
+}
+
+.form-sbm > input:active{
+  width: 100px;
+  height: 28px;
+  border: 1px solid #ececec;
+  background-color: #c2c2c2;
+  font-family: "PT Sans Narrow Bold", Arial;
+  float: right;
+  color: #fff;
+  font-size: 12px;
+}
+
